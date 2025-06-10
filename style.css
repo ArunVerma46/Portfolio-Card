@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.profile-img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #2ebf91;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #2ebf91;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #24997a;
+}
